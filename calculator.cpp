@@ -16,15 +16,15 @@ int main() {
 	sum = aa + ab;
 	std::cout << "sum is: " << sum;
 } else { if (input == 2) {
-int sa;
-int sb;
-int answer;
-std::cout << "subtraction input number 1: ";
-std::cin >> sa;
-std::cout << "input number 2: ";
-std::cin >> ab;
-int answer = sa - sb;
-std::cout << "answer is: " << answer;
+        int sa;
+        int sb;
+        int answer;
+        std::cout << "subtraction input number 1: ";
+        std::cin >> sa;
+        std::cout << "input number 2: ";
+        std::cin >> sb;
+        int answer = sa - sb;
+        std::cout << "answer is: " << answer;
 } else {
 		std::cout << "nothing else is working";
 	}
