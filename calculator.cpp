@@ -8,12 +8,11 @@ int main() {
 	if (input == 1){
 	float aa;
 	float ab;
-	float sum;
 	std::cout << "addition input number 1: ";
 	std::cin >> aa;
 	std::cout << "input number 2: ";
 	std::cin >> ab;
-	sum = aa + ab;
+	float sum = aa + ab;
 	std::cout << "sum is: " << sum;
         std::cout << " ";
 } else if (input == 2) {
