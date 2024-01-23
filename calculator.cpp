@@ -3,7 +3,7 @@
 
 int main() {
 	int input;
-	std::cout << "input what you would like to do. (addition: 1. subtraction: 2. multiplication: 3. nothing else is working)";
+	std::cout << "Input what you would like to do. (Addition: 1. Subtraction: 2. Multiplication: 3. Division: 4)";
 	std::cin >> input;
 	if (input == 1){
 	int aa;
@@ -33,7 +33,14 @@ int main() {
         std::cin >> mb;
         int answer = ma * mb;
         std::cout << "answer is: " << answer;
-} else {
-		std::cout << "nothing else is working";
+} else if (input == 4) {
+	int da;
+        int db;
+        std::cout << "division input number 1: ";
+        std::cin >> da;
+        std::cout << "input number 2: ";
+        std::cin >> db;
+        int answer = da / db;
+        std::cout << "answer is: " << answer;
 	}
  }
