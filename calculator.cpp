@@ -46,7 +46,7 @@ int main() {
         std::cout << "answer is: " << answer;
         std::cout << " ";
 	} else {
-        std::cout << "Wrong number ";
+        std::cout << "Not a number please try again";
         std::cout << " ";
     }
  }
