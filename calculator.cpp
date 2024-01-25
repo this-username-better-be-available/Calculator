@@ -1,11 +1,11 @@
 #include <cmath>
 #include <iostream>
 
-int main() {
-	int input;
+int main(){
+        int input;
 	std::cout << "Input what you would like to do. (Addition: 1. Subtraction: 2. Multiplication: 3. Division: 4) ";
 	std::cin >> input;
-	if (input == 1){
+        if (input == 1){
 	float aa;
 	float ab;
 	std::cout << "addition input number 1: ";
@@ -15,7 +15,7 @@ int main() {
 	float sum = aa + ab;
 	std::cout << "sum is: " << sum;
         std::cout << " ";
-} else if (input == 2) {
+        } else if (input == 2){
         float sa;
         float sb;
         std::cout << "subtraction input number 1: ";
@@ -25,7 +25,7 @@ int main() {
         float answer = sa - sb;
         std::cout << "answer is: " << answer;
         std::cout << " ";
-} else if (input == 3) {
+        } else if (input == 3){
         float ma;
         float mb;
         std::cout << "multiplication input number 1: ";
@@ -35,7 +35,7 @@ int main() {
         float answer = ma * mb;
         std::cout << "answer is: " << answer;
         std::cout << " ";
-} else if (input == 4) {
+        } else if (input == 4){
 	float da;
         float db;
         std::cout << "division input number 1: ";
@@ -45,8 +45,8 @@ int main() {
         float answer = da / db;
         std::cout << "answer is: " << answer;
         std::cout << " ";
-	} else {
-        std::cout << "Not a number please try again";
+	} else{
+        std::cout << "Not an option please try again";
         std::cout << " ";
-    }
- }
+        }
+}
